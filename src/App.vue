@@ -1,23 +1,26 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+  import { RouterLink, RouterView } from 'vue-router'
+  import HelloWorld from './components/HelloWorld.vue'
+  import Header from './components/Header.vue'
+  import Footer from './components/Footer.vue'
+  import HamburgerMenu from './components/HamburgerMenu.vue'
 </script>
+
+
 
 <template>
   <header>
-
+    
+    <HamburgerMenu/>
     <div class="wrapper">
       <HelloWorld msg="Winfields Pub" />
-      <Header/>
-
-      
-    </div>
-  </header>
-
-  <RouterView />
-
+    <Header/>
+    
+    
+  </div>
+</header>
+<RouterView />
+  
   <Footer/>
 
 </template>

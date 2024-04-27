@@ -6,12 +6,8 @@
 <template>
     <div>
         <h1>Appitizers</h1>
-        <!-- <nav>
-            <RouterLink to="/drinks/cocktails">Cocktails</RouterLink>
-            <br/>
-            <RouterLink to="/drinks/beers">Beers</RouterLink>
-            <br/>
-            <RouterLink to="/drinks/wine">Wine</RouterLink>
-        </nav> -->
+        <nav>
+            <RouterLink to="/apps/antioasti">ANTIPASTI E INSALAT</RouterLink>
+        </nav>
     </div>
 </template>

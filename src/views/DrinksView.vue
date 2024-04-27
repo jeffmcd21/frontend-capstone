@@ -6,7 +6,7 @@
 <template>
     <div>
         <nav>
-            <RouterLink to="/drinks/cocktails">Cocktails</RouterLink>
+            <RouterLink to="/drinks/cocktails"><ul><li>Gin & Tonic</li></ul>Cocktails</RouterLink>
             <br/>
             <RouterLink to="/drinks/beers">Beers</RouterLink>
             <br/>
